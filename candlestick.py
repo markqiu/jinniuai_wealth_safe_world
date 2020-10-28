@@ -198,4 +198,4 @@ def draw_charts(series_name, chart_data):
         ),
     )
 
-    st_pyecharts(grid_chart)
+    st_pyecharts(grid_chart, height="800px")

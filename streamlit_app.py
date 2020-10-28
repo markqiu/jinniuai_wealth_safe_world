@@ -3,6 +3,8 @@ from dip.data import query
 from candlestick import draw_charts, split_data
 
 st.title('投资机会分析')
+stock_name = st.selectbox('选择要查看股票：',('Email', 'Home phone', 'Mobile phone'))
+
 
 def load_data(sql):
     data = query(sql)
