@@ -13,6 +13,8 @@ default = true
 [tool.poetry.dependencies]
 python = "^3.8"
 streamlit = "^0.69.2"
+dip = {path = "../dip/dist/dip-0.8.5-py3-none-any.whl"}
+streamlit-echarts = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"

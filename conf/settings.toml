@@ -1,0 +1,10 @@
+[main]
+
+[kafka]
+bootstrap_servers = "123.103.74.232:9092"
+
+[dremio]
+host = "123.103.74.232"
+port = 31010
+uid = "markqiu"
+driver = "/opt/dremio-odbc/lib64/libdrillodbc_sb64.so"
