@@ -1,2 +1,2 @@
-# 智道投资笔记（Jinniuai Investment Dairy)
+# 投资日志（Investment Log)
 
