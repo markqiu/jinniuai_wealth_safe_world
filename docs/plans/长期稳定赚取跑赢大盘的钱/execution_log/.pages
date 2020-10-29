@@ -1,0 +1,4 @@
+nav:
+  - 事件日志: events
+  - 操作日志: operations
+  - 机器人日志: robots

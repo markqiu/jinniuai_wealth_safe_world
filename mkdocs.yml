@@ -1,5 +1,5 @@
-site_name: 投资装备文档展示
-site_description: Digitizing Investment Principles, 投资想法数字化, 用数字化的方式描述、创建、管理、分享你的投资想法
+site_name: 投资日志
+site_description: 记录在投资中的一点一滴
 site_author: 邱承
 copyright: 金牛智道 2020
 theme:
@@ -49,35 +49,3 @@ plugins:
   - git-revision-date-localized:
       type: datetime
   - awesome-pages
-nav:
-    - 首页: index.md
-    - 环境安装: installation.md
-    - 使用: usage.md
-    - 配置: configuration.md
-    - 基本概念: concepts.md
-    - 装备(equipments):
-        - 定义(definitions): 装备/定义.md
-        - 装备库(repo): 装备/装备库.md
-        - 运行(execution): 装备/运行.md
-    - 机器人(robots):
-        - 定义(definitions): 机器人/定义.md
-        - 资源(resources): 机器人/资源.md
-        - 回测(backtests): 机器人/回测.md
-        - 运行(execution): 机器人/运行.md
-        - 投资框架: 机器人/投资框架.md
-    - 事件(events):
-        - 定义: 事件/定义.md
-        - 生成: 事件/生成.md
-        - 处理: 事件/处理.md
-        - 保存: 事件/保存.md
-        - 回放: 事件/回放.md
-    - 其他:
-      - 投资原则:
-        - 投资原则的作用: 其他/投资原则/投资原则的作用.md
-        - Hello world: 其他/投资原则/hello world.md
-        - 投资原则的数字化方法: 其他/投资原则/投资原则的数字化方法.md
-        - 投资原则的分类: 其他/投资原则/投资原则的分类.md
-        - 投资原则的运行: 其他/投资原则/投资原则的运行.md
-      - 常见问题: FAQ.md
-    - 词汇表: includes/abbreviations.md
-    - Changelog: changelog.md
