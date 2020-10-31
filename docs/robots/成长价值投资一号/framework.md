@@ -58,3 +58,11 @@ v1.1。1
 ## 补充原则
 
 （1）通过DCF估值来给出每只股票的建议
+
+## 历史业绩跟踪
+
+A股：https://xueqiu.com/P/ZH1980102
+
+港股：https://xueqiu.com/P/ZH2213182
+
+美股：https://xueqiu.com/P/ZH2008409
