@@ -28,5 +28,5 @@ docs:
 build_docs:
 	mkdocs build
 
-deploy_docs:
+gh-deploy:
 	mkdocs gh-deploy
