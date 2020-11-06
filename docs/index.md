@@ -1,0 +1,8 @@
+# 金牛智道组合运行日志
+组合负责人： 邱承
+管理团队成员： 待定
+## 组合列表
+1. [躺赢8](plans/躺赢8/target.md)
+
+## 投研笔记
+请参见onenote[链接](https://1drv.ms/u/s!Avm8gDc2IOpK2Xx7JtQraj8Qdi56)

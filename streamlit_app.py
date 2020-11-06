@@ -1,5 +1,5 @@
 import streamlit as st
-from investment_log.plans import main as target
+from investment_log.plans.target import main as target
 from investment_log.ideas.target_finding import main as target_finding
 
 """
