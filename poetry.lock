@@ -1239,7 +1239,6 @@ url = "https://mirrors.aliyun.com/pypi/simple"
 [[package]]
 category = "main"
 description = "A Python Parser"
-marker = "python_version >= \"3.3\""
 name = "parso"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
@@ -1418,7 +1417,7 @@ url = "https://mirrors.aliyun.com/pypi/simple"
 [[package]]
 category = "main"
 description = "Run a subprocess in a pseudo terminal"
-marker = "sys_platform != \"win32\" or os_name != \"nt\" or python_version >= \"3.3\" and sys_platform != \"win32\" or python_version >= \"3.4\" and sys_platform != \"win32\""
+marker = "python_version >= \"3.3\" and sys_platform != \"win32\" or sys_platform != \"win32\" or python_version >= \"3.4\" and sys_platform != \"win32\" or os_name != \"nt\" or python_version >= \"3.3\" and sys_platform != \"win32\" and (python_version >= \"3.3\" and sys_platform != \"win32\" or sys_platform != \"win32\" or python_version >= \"3.4\" and sys_platform != \"win32\") or python_version >= \"3.4\" and sys_platform != \"win32\" and (python_version >= \"3.3\" and sys_platform != \"win32\" or sys_platform != \"win32\" or python_version >= \"3.4\" and sys_platform != \"win32\")"
 name = "ptyprocess"
 optional = false
 python-versions = "*"
@@ -1831,6 +1830,22 @@ url = "https://mirrors.aliyun.com/pypi/simple"
 
 [[package]]
 category = "main"
+description = "snbpy"
+name = "snbpy"
+optional = false
+python-versions = ">=3.6, <4"
+version = "1.0.0"
+
+[package.dependencies]
+requests = "*"
+
+[package.source]
+reference = 'aliyun'
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[[package]]
+category = "main"
 description = "The fastest way to build data apps in Python"
 name = "streamlit"
 optional = false
@@ -2147,7 +2162,7 @@ type = "legacy"
 url = "https://mirrors.aliyun.com/pypi/simple"
 
 [metadata]
-content-hash = "6acad45bc749ffe24a8e4eaf78418a0563227217a1cbf8b1c39b5a28a65d26a7"
+content-hash = "a15fc74a14d8de5078d0f4512a553eefd7d8ed881ab580867abc771e686770f4"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -2891,6 +2906,10 @@ six = [
 smmap = [
     {file = "smmap-3.0.4-py2.py3-none-any.whl", hash = "sha256:54c44c197c819d5ef1991799a7e30b662d1e520f2ac75c9efbeb54a742214cf4"},
     {file = "smmap-3.0.4.tar.gz", hash = "sha256:9c98bbd1f9786d22f14b3d4126894d56befb835ec90cef151af566c7e19b5d24"},
+]
+snbpy = [
+    {file = "snbpy-1.0.0-py3-none-any.whl", hash = "sha256:de3560d90899f271b3dc543d5ce3ee1bde4e6379509e35113f5f60846bea1806"},
+    {file = "snbpy-1.0.0.tar.gz", hash = "sha256:ed0d38ce7014acac4dc5433da1528511b2e606e36d17570bb498cd63a8e1424a"},
 ]
 streamlit = [
     {file = "streamlit-0.69.2-py2.py3-none-any.whl", hash = "sha256:191f50ab7bbaf667621483ddd1f981d81e0eb7f2139684c06db1cc17fe014aa8"},
