@@ -666,6 +666,19 @@ url = "https://mirrors.aliyun.com/pypi/simple"
 
 [[package]]
 category = "main"
+description = "Jiagu Natural Language Processing"
+name = "jiagu"
+optional = false
+python-versions = "*"
+version = "0.2.3"
+
+[package.source]
+reference = 'aliyun'
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[[package]]
+category = "main"
 description = "A very fast and expressive template engine."
 name = "jinja2"
 optional = false
@@ -1830,27 +1843,11 @@ url = "https://mirrors.aliyun.com/pypi/simple"
 
 [[package]]
 category = "main"
-description = "snbpy"
-name = "snbpy"
-optional = false
-python-versions = ">=3.6, <4"
-version = "1.0.0"
-
-[package.dependencies]
-requests = "*"
-
-[package.source]
-reference = 'aliyun'
-type = "legacy"
-url = "https://mirrors.aliyun.com/pypi/simple"
-
-[[package]]
-category = "main"
 description = "The fastest way to build data apps in Python"
 name = "streamlit"
 optional = false
 python-versions = ">=3.6"
-version = "0.69.2"
+version = "0.70.0"
 
 [package.dependencies]
 altair = ">=3.2.0"
@@ -1895,6 +1892,22 @@ version = "0.1.0"
 pyecharts = ">=1.8"
 simplejson = ">=3.0"
 streamlit = ">=0.63"
+
+[package.source]
+reference = 'aliyun'
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[[package]]
+category = "main"
+description = "Python wrapper for TA-Lib"
+name = "ta-lib"
+optional = false
+python-versions = "*"
+version = "0.4.19"
+
+[package.dependencies]
+numpy = "*"
 
 [package.source]
 reference = 'aliyun'
@@ -2162,7 +2175,7 @@ type = "legacy"
 url = "https://mirrors.aliyun.com/pypi/simple"
 
 [metadata]
-content-hash = "a15fc74a14d8de5078d0f4512a553eefd7d8ed881ab580867abc771e686770f4"
+content-hash = "c657b3ee69002022f71f0f08370606c01341fc00d5e902110080c5019cbd761c"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -2376,6 +2389,9 @@ ipywidgets = [
 jedi = [
     {file = "jedi-0.17.2-py2.py3-none-any.whl", hash = "sha256:98cc583fa0f2f8304968199b01b6b4b94f469a1f4a74c1560506ca2a211378b5"},
     {file = "jedi-0.17.2.tar.gz", hash = "sha256:86ed7d9b750603e4ba582ea8edc678657fb4007894a12bcf6f4bb97892f31d20"},
+]
+jiagu = [
+    {file = "jiagu-0.2.3.tar.gz", hash = "sha256:4fe546c07d5afcc30f36990726699e197739cb49b78283ba5ce8171322d090cf"},
 ]
 jinja2 = [
     {file = "Jinja2-2.11.2-py2.py3-none-any.whl", hash = "sha256:f0a4641d3cf955324a89c04f3d94663aa4d638abe8f733ecd3582848e1c37035"},
@@ -2907,16 +2923,16 @@ smmap = [
     {file = "smmap-3.0.4-py2.py3-none-any.whl", hash = "sha256:54c44c197c819d5ef1991799a7e30b662d1e520f2ac75c9efbeb54a742214cf4"},
     {file = "smmap-3.0.4.tar.gz", hash = "sha256:9c98bbd1f9786d22f14b3d4126894d56befb835ec90cef151af566c7e19b5d24"},
 ]
-snbpy = [
-    {file = "snbpy-1.0.0-py3-none-any.whl", hash = "sha256:de3560d90899f271b3dc543d5ce3ee1bde4e6379509e35113f5f60846bea1806"},
-    {file = "snbpy-1.0.0.tar.gz", hash = "sha256:ed0d38ce7014acac4dc5433da1528511b2e606e36d17570bb498cd63a8e1424a"},
-]
 streamlit = [
-    {file = "streamlit-0.69.2-py2.py3-none-any.whl", hash = "sha256:191f50ab7bbaf667621483ddd1f981d81e0eb7f2139684c06db1cc17fe014aa8"},
+    {file = "streamlit-0.70.0-py2.py3-none-any.whl", hash = "sha256:433c2c6f086a08315f042a443f361f98d56337db56c20a7065ded03a5de54274"},
+    {file = "streamlit-0.70.0.tar.gz", hash = "sha256:7a86bc7ef34c79b0fa014c333b4fdfbbbb71aea9e8df08de6e454bfda43f67bc"},
 ]
 streamlit-echarts = [
     {file = "streamlit-echarts-0.1.0.tar.gz", hash = "sha256:8fa9e56bb0ca6d174989fe1fc3cc8572465fb5ea508725cc52f9e7a0e77230f2"},
     {file = "streamlit_echarts-0.1.0-py3-none-any.whl", hash = "sha256:d90ae88103997b9eb8bc2adfe5d8d7da9fdf54ab05dc69e3cd8f7f6b2793f959"},
+]
+ta-lib = [
+    {file = "TA-Lib-0.4.19.tar.gz", hash = "sha256:5303227898f8f08baecb4d3b8767c85891b65b21f481a3ecbaa6e901c3531db5"},
 ]
 terminado = [
     {file = "terminado-0.9.1-py3-none-any.whl", hash = "sha256:c55f025beb06c2e2669f7ba5a04f47bb3304c30c05842d4981d8f0fc9ab3b4e3"},

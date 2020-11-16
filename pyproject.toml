@@ -12,9 +12,9 @@ default = true
 
 [tool.poetry.dependencies]
 python = "^3.8"
-streamlit = "^0.69.2"
 streamlit-echarts = "^0.1.0"
-snbpy = "^1.0.0"
+jiagu = "^0.2.3"
+TA-Lib = "^0.4.19"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"

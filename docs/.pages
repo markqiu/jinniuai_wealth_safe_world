@@ -1,8 +1,6 @@
 nav:
   - 首页: index.md
-  - 投资目标和投资计划: plans
-  - 投资机器人: robots
-  - 投资想法: ideas
+  - ...
   - 常见问题: faq.md
   - 词汇表: glossary.md
   - Changelog: changelog.md
