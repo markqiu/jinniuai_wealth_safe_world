@@ -679,6 +679,19 @@ url = "https://mirrors.aliyun.com/pypi/simple"
 
 [[package]]
 category = "main"
+description = "Chinese Words Segmentation Utilities"
+name = "jieba"
+optional = false
+python-versions = "*"
+version = "0.42.1"
+
+[package.source]
+reference = 'aliyun'
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[[package]]
+category = "main"
 description = "A very fast and expressive template engine."
 name = "jinja2"
 optional = false
@@ -2175,7 +2188,7 @@ type = "legacy"
 url = "https://mirrors.aliyun.com/pypi/simple"
 
 [metadata]
-content-hash = "c657b3ee69002022f71f0f08370606c01341fc00d5e902110080c5019cbd761c"
+content-hash = "0b17a99e1e6caf78f8f03b55c0adb47fd3a71f4d3782bc76f42bf486a9f73cdb"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -2392,6 +2405,9 @@ jedi = [
 ]
 jiagu = [
     {file = "jiagu-0.2.3.tar.gz", hash = "sha256:4fe546c07d5afcc30f36990726699e197739cb49b78283ba5ce8171322d090cf"},
+]
+jieba = [
+    {file = "jieba-0.42.1.tar.gz", hash = "sha256:055ca12f62674fafed09427f176506079bc135638a14e23e25be909131928db2"},
 ]
 jinja2 = [
     {file = "Jinja2-2.11.2-py2.py3-none-any.whl", hash = "sha256:f0a4641d3cf955324a89c04f3d94663aa4d638abe8f733ecd3582848e1c37035"},
