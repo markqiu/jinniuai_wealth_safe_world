@@ -18,6 +18,9 @@ theme:
   features:
     - search.suggest
     - search.highlight
+extra:
+  search:
+    language: 'jp'
 markdown_extensions:
   - abbr
   - admonition
