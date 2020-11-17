@@ -16,6 +16,8 @@ streamlit-echarts = "^0.1.0"
 jiagu = "^0.2.3"
 TA-Lib = "^0.4.19"
 jieba = "^0.42.1"
+panel = "^0.10.1"
+dash = "^1.17.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
