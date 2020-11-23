@@ -1,4 +1,6 @@
 # Change Log
+## v1.3.9
+- 增加国光股份
 
 ## v1.3.8
 - 增加macros支持，可以在markdown里面include文件和引用python
