@@ -1,4 +1,8 @@
 # Change Log
+
+## v1.3.8
+- 增加macros支持，可以在markdown里面include文件和引用python
+
 ## v1.3.7
 - 增加个股研究框架
 

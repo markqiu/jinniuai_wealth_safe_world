@@ -2,6 +2,10 @@ site_name: 投资日志
 site_description: 记录在投资中的一点一滴
 site_author: 邱承
 copyright: 金牛智道 2020
+site_url: https://markqiu.github.io/investment_log/
+base_url: investment_log
+repo_name: markqiu/dip
+repo_url: https://gitlab.jinniuai.com/markqiu/dip
 theme:
   name: 'material'
   logo: 'images/logo.png'
@@ -13,8 +17,6 @@ theme:
       scheme: default
   tabs: true
   #instant: true
-  repo_name: markqiu/dip
-  repo_url: https://gitlab.jinniuai.com/markqiu/dip
   features:
     - search.suggest
     - search.highlight
@@ -49,3 +51,4 @@ plugins:
   - git-revision-date-localized:
       type: datetime
   - awesome-pages
+  - macros
