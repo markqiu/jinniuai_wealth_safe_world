@@ -11,7 +11,8 @@
 [投资目标](组合管理/躺赢8/target.md)  
 3. 组合管理日志
   1. 操作日志
-    1. [2020.11.23](组合管理/躺赢8/execution_log/operations/2020-11-23/)
+    1. [2020.11.24](组合管理/躺赢8/execution_log/operations/2020-11-24/)
+    2. [2020.11.23](组合管理/躺赢8/execution_log/operations/2020-11-23/)
     
     
     3. [2020.11.20](组合管理/躺赢8/execution_log/operations/2020-11-20/)
