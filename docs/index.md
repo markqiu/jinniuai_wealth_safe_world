@@ -11,13 +11,14 @@
 [投资目标](组合管理/躺赢8/target.md)  
 3. 组合管理日志
   1. 操作日志
-    1. [2020.12.01](组合管理/躺赢8/execution_log/operations/2020-12-01/)
-    2. [2020.11.30](组合管理/躺赢8/execution_log/operations/2020-11-30/)
-    3. [2020.11.27](组合管理/躺赢8/execution_log/operations/2020-11-27/)
-    4. [2020.11.26](组合管理/躺赢8/execution_log/operations/2020-11-26/)
-    5. [2020.11.25](组合管理/躺赢8/execution_log/operations/2020-11-25/)
-    6. [2020.11.24](组合管理/躺赢8/execution_log/operations/2020-11-24/)
-    7. [2020.11.23](组合管理/躺赢8/execution_log/operations/2020-11-23/)
+    1. [2020.12.02](组合管理/躺赢8/execution_log/operations/2020-12-02/)
+    2. [2020.12.01](组合管理/躺赢8/execution_log/operations/2020-12-01/)
+    3. [2020.11.30](组合管理/躺赢8/execution_log/operations/2020-11-30/)
+    4. [2020.11.27](组合管理/躺赢8/execution_log/operations/2020-11-27/)
+    5. [2020.11.26](组合管理/躺赢8/execution_log/operations/2020-11-26/)
+    6. [2020.11.25](组合管理/躺赢8/execution_log/operations/2020-11-25/)
+    7. [2020.11.24](组合管理/躺赢8/execution_log/operations/2020-11-24/)
+    8. [2020.11.23](组合管理/躺赢8/execution_log/operations/2020-11-23/)
     
     
     3. [2020.11.20](组合管理/躺赢8/execution_log/operations/2020-11-20/)
@@ -30,12 +31,6 @@
     1. [2020.11.18](组合管理/躺赢8/execution_log/robots/2020-11-18/)
     2. [2020.11.20](组合管理/躺赢8/execution_log/robots/2020-11-20/)
   
-4. 当前任务列表
-   - [ ] 建仓安车检测 50万
-   - [ ] 建仓伟明环保 10万
-   - [ ] 建仓帝尔激光 10万
-   - [ ] 研究金石资源
-   - [ ] 研究亿嘉和
 
 ## 投资框架列表
 
