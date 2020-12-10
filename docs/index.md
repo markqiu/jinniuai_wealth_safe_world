@@ -18,7 +18,7 @@
     5. [2020.12.04](组合管理/躺赢8/execution_log/operations/2020-12-04/)
     6. [2020.12.02](组合管理/躺赢8/execution_log/operations/2020-12-02/)
     7. [2020.12.01](组合管理/躺赢8/execution_log/operations/2020-12-01/)
-    8. [投资计划-2020-12](组合管理/躺赢8/execution_log/operations/投资计划-2020-12.md)
+    8. [投资计划-2020-12](组合管理/躺赢8/execution_log/operations/2020-12-投资计划.md)
     9. [2020.11.30](组合管理/躺赢8/execution_log/operations/2020-11-30/)
     10. [2020.11.27](组合管理/躺赢8/execution_log/operations/2020-11-27/)
     11. [2020.11.26](组合管理/躺赢8/execution_log/operations/2020-11-26/)
