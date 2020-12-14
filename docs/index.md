@@ -9,7 +9,7 @@
 持仓跟踪（模拟盘）：[智道智能组合](https://houguan.jinniuai.com/?code=i3bOF_#/)  
 2. 投资目标：
 [投资目标](组合管理/躺赢8/target.md)  
-3. 组合管理日志
+3. 组合管理日志（当月）
   1. 操作日志
     1. [2020.12.14](组合管理/躺赢8/execution_log/operations/2020-12-14.md)
     2. [2020.12.11](组合管理/躺赢8/execution_log/operations/2020-12-11.md)
@@ -21,12 +21,11 @@
     8. [2020.12.02](组合管理/躺赢8/execution_log/operations/2020-12-02/)
     9. [2020.12.01](组合管理/躺赢8/execution_log/operations/2020-12-01/)
     10. [投资计划-2020-12](组合管理/躺赢8/execution_log/operations/2020-12-投资计划.md)
-    11. [更多](组合管理/execution_log/operations)
     
   2. 机器人信号日志
     
     1. [2020.12.11](组合管理/躺赢8/execution_log/robots/2020-12-11/)
-    2. [[2020.11.20](组合管理/躺赢8/execution_log/robots/2020-11-20/)
+    2. [2020.11.20](组合管理/躺赢8/execution_log/robots/2020-11-20/)
     3. [2020.11.18](组合管理/躺赢8/execution_log/robots/2020-11-18/)
   
 
