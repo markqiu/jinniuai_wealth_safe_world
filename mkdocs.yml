@@ -5,7 +5,7 @@ copyright: 金牛智道 2020
 site_url: https://markqiu.github.io/investment_log/
 base_url: investment_log
 repo_name: markqiu/dip
-repo_url: https://gitlab.jinniuai.com/markqiu/dip
+repo_url: https://github.com/markqiu/investment_log
 theme:
   name: 'material'
   logo: 'images/logo.png'
