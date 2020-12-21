@@ -10,22 +10,23 @@
 [投资目标](组合管理/躺赢8/target.md)  
 3. 组合管理日志（当月）
   1. 操作日志
-    1. [2020.12.18](组合管理/躺赢8/execution_log/operations/2020-12-18.md)
-    2. [2020.12.17](组合管理/躺赢8/execution_log/operations/2020-12-17.md)
-    3. [2020.12.16](组合管理/躺赢8/execution_log/operations/2020-12-16.md)
-    4. [2020.12.15](组合管理/躺赢8/execution_log/operations/2020-12-15.md)
-    5. [2020.12.14](组合管理/躺赢8/execution_log/operations/2020-12-14.md)
-    6. [2020.12.11](组合管理/躺赢8/execution_log/operations/2020-12-11.md)
-    7. [2020.12.10](组合管理/躺赢8/execution_log/operations/2020-12-10.md)
-    8. [2020.12.09](组合管理/躺赢8/execution_log/operations/2020-12-09.md)
-    9. [2020.12.08](组合管理/躺赢8/execution_log/operations/2020-12-08.md)
-    10. [2020.12.07](组合管理/躺赢8/execution_log/operations/2020-12-07/)
-    11. [2020.12.04](组合管理/躺赢8/execution_log/operations/2020-12-04/)
-    12. [2020.12.02](组合管理/躺赢8/execution_log/operations/2020-12-02/)
-    13. [2020.12.01](组合管理/躺赢8/execution_log/operations/2020-12-01/)
-14. [投资计划-2020-12](组合管理/躺赢8/execution_log/operations/2020-12-投资计划.md)
-    
-2. 机器人信号日志
+    1. [2020.12.21](组合管理/躺赢8/execution_log/operations/2020-12-21.md)
+    2. [2020.12.18](组合管理/躺赢8/execution_log/operations/2020-12-18.md)
+    3. [2020.12.17](组合管理/躺赢8/execution_log/operations/2020-12-17.md)
+    4. [2020.12.16](组合管理/躺赢8/execution_log/operations/2020-12-16.md)
+    5. [2020.12.15](组合管理/躺赢8/execution_log/operations/2020-12-15.md)
+    6. [2020.12.14](组合管理/躺赢8/execution_log/operations/2020-12-14.md)
+    7. [2020.12.11](组合管理/躺赢8/execution_log/operations/2020-12-11.md)
+    8. [2020.12.10](组合管理/躺赢8/execution_log/operations/2020-12-10.md)
+    9. [2020.12.09](组合管理/躺赢8/execution_log/operations/2020-12-09.md)
+    10. [2020.12.08](组合管理/躺赢8/execution_log/operations/2020-12-08.md)
+    11. [2020.12.07](组合管理/躺赢8/execution_log/operations/2020-12-07/)
+    12. [2020.12.04](组合管理/躺赢8/execution_log/operations/2020-12-04/)
+    13. [2020.12.02](组合管理/躺赢8/execution_log/operations/2020-12-02/)
+14. [2020.12.01](组合管理/躺赢8/execution_log/operations/2020-12-01/)
+    15. [投资计划-2020-12](组合管理/躺赢8/execution_log/operations/2020-12-投资计划.md)
+  
+  2. 机器人信号日志
   
     1. [2020.12.11](组合管理/躺赢8/execution_log/robots/2020-12-11/)
     2. [2020.11.20](组合管理/躺赢8/execution_log/robots/2020-11-20/)
