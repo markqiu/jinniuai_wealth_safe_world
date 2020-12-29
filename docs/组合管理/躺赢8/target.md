@@ -21,3 +21,11 @@
 
 1万元起投，1000元一个增长单位。
 
+## 运行日志
+
+https://markqiu.github.io/investment_log/%E7%BB%84%E5%90%88%E7%AE%A1%E7%90%86/%E8%BA%BA%E8%B5%A28/execution_log/operations/2020-12-29/
+
+### 安全管理
+
+https://markqiu.github.io/investment_log/%E7%BB%84%E5%90%88%E7%AE%A1%E7%90%86/%E8%BA%BA%E8%B5%A28/安全管理/碧桂园检查清单 (1).xlsx
+
