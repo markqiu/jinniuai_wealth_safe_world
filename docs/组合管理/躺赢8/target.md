@@ -27,5 +27,5 @@ https://markqiu.github.io/investment_log/%E7%BB%84%E5%90%88%E7%AE%A1%E7%90%86/%E
 
 ### 安全管理
 
-https://markqiu.github.io/investment_log/%E7%BB%84%E5%90%88%E7%AE%A1%E7%90%86/%E8%BA%BA%E8%B5%A28/安全管理/碧桂园检查清单 (1).xlsx
+[碧桂园](https://markqiu.github.io/investment_log/%E7%BB%84%E5%90%88%E7%AE%A1%E7%90%86/%E8%BA%BA%E8%B5%A28/安全管理/碧桂园检查清单 (1).xlsx)
 
