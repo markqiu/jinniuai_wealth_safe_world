@@ -10,11 +10,12 @@
 [投资目标](组合管理/躺赢8/target.md)  
 3. 组合管理日志（当月）
   1. 操作日志
-    1. [2021.1.7](组合管理/躺赢8/execution_log/operations/2021-01-07.md)
-    2. [2021.1.6](组合管理/躺赢8/execution_log/operations/2021-01-06.md)
-    3. [2021.1.5](组合管理/躺赢8/execution_log/operations/2021-01-05.md)
-    4. [2021.1.4](组合管理/躺赢8/execution_log/operations/2021-01-04.md)
-  5. [2020年12月回顾及1月计划](组合管理/躺赢8/execution_log/operations/2021-01-投资计划.md)
+    1. [2021.1.8](组合管理/躺赢8/execution_log/operations/2021-01-08.md)
+    2. [2021.1.7](组合管理/躺赢8/execution_log/operations/2021-01-07.md)
+    3. [2021.1.6](组合管理/躺赢8/execution_log/operations/2021-01-06.md)
+    4. [2021.1.5](组合管理/躺赢8/execution_log/operations/2021-01-05.md)
+  5. [2021.1.4](组合管理/躺赢8/execution_log/operations/2021-01-04.md)
+    6. [2020年12月回顾及1月计划](组合管理/躺赢8/execution_log/operations/2021-01-投资计划.md)
   4. 机器人信号日志
   
     1. [2020.12.11](组合管理/躺赢8/execution_log/robots/2020-12-11/)
