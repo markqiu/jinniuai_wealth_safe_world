@@ -50,6 +50,6 @@
 
 - [ ] 把净值算精准，目前分红、最后一笔佣金手续费等都无法统计
 
-- [ ] 支持投资组合的绩效评估，参考https://www.interactivebrokers.com/cn/software/am/am/reports/availablereportsindetailedpdfreports.htm，还有书，另外，成本计算清楚，把买卖成本、分红等精确到个股
+- [ ] 支持投资组合的绩效评估，具体需求见IB的绩效分析报告，还有成本计算清楚，把买卖成本、分红等精确到个股，并自动生成performance.md页面
 
-- [ ] 支持持仓监控
+- [ ] 支持持仓自动监控
