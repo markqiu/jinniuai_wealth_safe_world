@@ -1,70 +1,38 @@
 import streamlit as st
-# To make things easier later, we're also importing numpy and pandas for
-# working with sample data.
-import numpy as np
 import pandas as pd
-st.title('My first app')
-st.write("Here's our first attempt at using data to create a table:")
-st.write(pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
-}))
-"""
-# My first app
-Here's our first attempt at using data to create a table:
-"""
+import pymysql
+st.title("申万行业查询")
 
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
-  'second column': [10, 20, 30, 40]
-})
+zvthost='123.103.74.231'
+zvtuser = 'zvtreader'
+zvtpasswd = 'zvtreader321'
+zvtdb = 'zvt'
+zvtport = 3306
+conn = pymysql.connect(host=zvthost, user=zvtuser, passwd=zvtpasswd, db=zvtdb,
+                       port=zvtport)
 
-df
-chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
-     columns=['a', 'b', 'c'])
+stock_code = st.sidebar.text_input('输入证券代码：', '')
+exchange = st.sidebar.radio(
+ '选择市场',
+options=['sh', 'sz'],index=0)
+stock_id = f"stock_{exchange}_{stock_code}"
 
-st.line_chart(chart_data)
+if stock_code:
+    sql = f"SELECT name as 行业 FROM block_stock WHERE exchange = 'swl1' and stock_id = '{stock_id}' " \
+           f"union SELECT name as 二级行业 FROM block_stock WHERE exchange = 'swl2' and stock_id = '{stock_id}' " \
+           f"union SELECT name as 三级行业 FROM block_stock WHERE exchange = 'swl3' and stock_id = '{stock_id}'"
+    sw_data = pd.read_sql(sql, conn)
+    f"一级行业: {sw_data['行业'][0]}"
+    f"二级行业： {sw_data['行业'][1]}\n"
+    f"三级行业: {sw_data['行业'][2]}"
+else:
+    sql = f"SELECT * FROM block_stock WHERE exchange = 'swl1'" \
+           f"union SELECT * FROM block_stock WHERE exchange = 'swl2'" \
+           f"union SELECT * FROM block_stock WHERE exchange = 'swl3'"
+    sw_data = pd.read_sql(sql, conn)
+    df = pd.DataFrame(columns=["股票代码","股票名称", "一级行业", "二级行业","三级行业"])
+    for stock_id in sw_data.groupby("stock_id"):
+        df = df.append({"股票代码":stock_id[0],"股票名称":stock_id[1]['stock_name'].iloc[0],"一级行业": stock_id[1]['name'].values[0],"二级行业": stock_id[1]['name'].values[1],"三级行业": stock_id[1]['name'].values[2]},ignore_index=True)
+    st.dataframe(data=df, height=20000)
 
-map_data = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
-    columns=['lat', 'lon'])
-
-st.map(map_data)
-
-if st.checkbox('Show dataframe'):
-    chart_data = pd.DataFrame(
-       np.random.randn(20, 3),
-       columns=['a', 'b', 'c'])
-
-    st.line_chart(chart_data)
-
-option = st.selectbox(
-    'Which number do you like best?',
-     df['first column'])
-
-'You selected: ', option
-
-left_column, right_column = st.beta_columns(2)
-pressed = left_column.button('Press me?')
-if pressed:
-    right_column.write("Woohoo!")
-
-expander = st.beta_expander("FAQ")
-expander.write("Here you could put in some really, really long explanations...")
-
-import time
-'Starting a long computation...'
-
-# Add a placeholder
-latest_iteration = st.empty()
-bar = st.progress(0)
-
-for i in range(100):
-  # Update the progress bar with each iteration.
-  latest_iteration.text(f'Iteration {i+1}')
-  bar.progress(i + 1)
-  time.sleep(0.1)
-
-'...and now we\'re done!'
-
+conn.close()
