@@ -2,10 +2,10 @@ site_name: 投资日志
 site_description: 智道投资成长日记，记录投资成长的一点一滴
 site_author: 邱承
 copyright: 金牛智道 2020
-site_url: https://markqiu.github.io/investment_log/
+site_url: https://markqiu.github.io/jinniuai_wealth_safe_world/
 base_url: investment_log
 repo_name: markqiu/dip
-repo_url: https://github.com/markqiu/investment_log
+repo_url: https://github.com/markqiu/jinniuai_wealth_safe_world
 theme:
   name: 'material'
   logo: 'images/logo.png'
