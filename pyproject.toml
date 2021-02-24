@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jinniuai_wealth_safe_world"
-version = "1.4.4"
+version = "1.4.5"
 description = "金牛智道一号的财富安全世界"
 authors = ["markqiu <qiucheng@jinniuai.com>"]
 license = "MIT"
