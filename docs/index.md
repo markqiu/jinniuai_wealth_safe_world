@@ -5,24 +5,27 @@
 ## 组合列表
 ### [金牛智道一号]
 1. 投资理念：  
-用成长价值投资框架，追求年化8%的收益的基础之上，在此基础之上争取跑赢大盘。  
+  1. 投资就是买公司。
+  2. 低风险投资，在低风险基础之上追求比大盘更高的收益。  
+  3. 长期投资，追求复利。
 2. 投资目标：
 [投资目标](组合管理/金牛智道一号/target.md)  
 3. 组合管理日志（当月）
   1. 操作日志
-    1. [2021.02.24](组合管理/金牛智道一号/execution_log/operations/2021-02-24.md)
-    2. [2021.02.23](组合管理/金牛智道一号/execution_log/operations/2021-02-23.md)
-    3. [2021.02.22](组合管理/金牛智道一号/execution_log/operations/2021-02-22.md)
-    4. [2021.02.19](组合管理/金牛智道一号/execution_log/operations/2021-02-19.md)
-    5. [2021.02.18](组合管理/金牛智道一号/execution_log/operations/2021-02-18.md)
-    6. [2021.02.10](组合管理/金牛智道一号/execution_log/operations/2021-02-10.md)
-    7. [2021.02.09](组合管理/金牛智道一号/execution_log/operations/2021-02-09.md)
-    8. [2021.02.08](组合管理/金牛智道一号/execution_log/operations/2021-02-08.md)
-    9. [2021.02.05](组合管理/金牛智道一号/execution_log/operations/2021-02-05.md)
-    10. [2021.02.04](组合管理/金牛智道一号/execution_log/operations/2021-02-04.md)
-    11. [2021.02.03](组合管理/金牛智道一号/execution_log/operations/2021-02-03.md)
-    12. [2021.02.02](组合管理/金牛智道一号/execution_log/operations/2021-02-02.md)
-    13. [2021.02.01](组合管理/金牛智道一号/execution_log/operations/2021-02-01.md)
+    1. [2021.02.25](组合管理/金牛智道一号/execution_log/operations/2021-02-25.md)
+    2. [2021.02.24](组合管理/金牛智道一号/execution_log/operations/2021-02-24.md)
+    3. [2021.02.23](组合管理/金牛智道一号/execution_log/operations/2021-02-23.md)
+    4. [2021.02.22](组合管理/金牛智道一号/execution_log/operations/2021-02-22.md)
+    5. [2021.02.19](组合管理/金牛智道一号/execution_log/operations/2021-02-19.md)
+    6. [2021.02.18](组合管理/金牛智道一号/execution_log/operations/2021-02-18.md)
+    7. [2021.02.10](组合管理/金牛智道一号/execution_log/operations/2021-02-10.md)
+    8. [2021.02.09](组合管理/金牛智道一号/execution_log/operations/2021-02-09.md)
+    9. [2021.02.08](组合管理/金牛智道一号/execution_log/operations/2021-02-08.md)
+    10. [2021.02.05](组合管理/金牛智道一号/execution_log/operations/2021-02-05.md)
+    11. [2021.02.04](组合管理/金牛智道一号/execution_log/operations/2021-02-04.md)
+    12. [2021.02.03](组合管理/金牛智道一号/execution_log/operations/2021-02-03.md)
+    13. [2021.02.02](组合管理/金牛智道一号/execution_log/operations/2021-02-02.md)
+    14. [2021.02.01](组合管理/金牛智道一号/execution_log/operations/2021-02-01.md)
   4. 机器人信号日志
   
     1. [2020.12.11](组合管理/金牛智道一号/execution_log/robots/2020-12-11/)
