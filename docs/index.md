@@ -10,11 +10,13 @@
   3. 长期投资，追求复利。
 3. 组合管理日志（当月）
   1. 操作日志  
-    1. [2021.04.01](组合管理/金牛智道一号/execution_log/operations/2021-04-01.md)
-    2. [2021.03.25](组合管理/金牛智道一号/execution_log/operations/2021-03-25.md)
-    3. [2021.03.24](组合管理/金牛智道一号/execution_log/operations/2021-03-24.md)
-    4. [2021.03.23](组合管理/金牛智道一号/execution_log/operations/2021-03-23.md)
-    5. [2021.03.22](组合管理/金牛智道一号/execution_log/operations/2021-03-22.md)
+    1. [2021.04.06](组合管理/金牛智道一号/execution_log/operations/2021-04-06.md)
+    2. [2021.04.02](组合管理/金牛智道一号/execution_log/operations/2021-04-02.md)
+    3. [2021.04.01](组合管理/金牛智道一号/execution_log/operations/2021-04-01.md)
+    4. [2021.03.25](组合管理/金牛智道一号/execution_log/operations/2021-03-25.md)
+    5. [2021.03.24](组合管理/金牛智道一号/execution_log/operations/2021-03-24.md)
+    6. [2021.03.23](组合管理/金牛智道一号/execution_log/operations/2021-03-23.md)
+    7. [2021.03.22](组合管理/金牛智道一号/execution_log/operations/2021-03-22.md)
   4. 机器人信号日志
     1. [2020.12.11](组合管理/金牛智道一号/execution_log/robots/2020-12-11/)
     2. [2020.11.20](组合管理/金牛智道一号/execution_log/robots/2020-11-20/)
